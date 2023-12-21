@@ -1,0 +1,12 @@
+dataset:
+  data_path: '/Users/zhangzijun/我的项目/plant_dataset/'
+  small_batch: true # true为跑小批量数据
+  train_small_batch_size: 100 # 小批量数据使用scene的数目
+  val_small_batch_size: 100
+
+trainer:
+  batch_size: 32
+  epoch: 20
+  num_workers: 8
+
+  
